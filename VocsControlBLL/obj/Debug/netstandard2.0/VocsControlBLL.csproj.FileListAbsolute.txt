@@ -1,0 +1,11 @@
+F:\Users\dell\source\repos\VocsControlBLL\bin\Debug\netstandard2.0\VocsControlBLL.deps.json
+F:\Users\dell\source\repos\VocsControlBLL\bin\Debug\netstandard2.0\VocsControlBLL.dll
+F:\Users\dell\source\repos\VocsControlBLL\bin\Debug\netstandard2.0\VocsControlBLL.pdb
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.csprojAssemblyReference.cache
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.AssemblyInfoInputs.cache
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.AssemblyInfo.cs
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.csproj.CopyComplete
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.dll
+F:\Users\dell\source\repos\VocsControlBLL\obj\Debug\netstandard2.0\VocsControlBLL.pdb
+F:\Users\dell\source\repos\VocsControlBLL\bin\Debug\netstandard2.0\VocsControlHELP.dll
+F:\Users\dell\source\repos\VocsControlBLL\bin\Debug\netstandard2.0\VocsControlHELP.pdb
