@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VocsControlHELP\VocsControlHELP.csproj" />
-    <ProjectReference Include="..\VocsControlUTIL\VocsControlHELP.csproj" />
   </ItemGroup>
 
 </Project>
