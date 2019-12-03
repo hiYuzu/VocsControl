@@ -185,8 +185,8 @@
     },
     "VocsControlHELP/1.0.0": {
       "type": "project",
-      "path": "../VocsControlUTIL/VocsControlHELP.csproj",
-      "msbuildProject": "../VocsControlUTIL/VocsControlHELP.csproj"
+      "path": "../VocsControlHELP/VocsControlHELP.csproj",
+      "msbuildProject": "../VocsControlHELP/VocsControlHELP.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -221,6 +221,9 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "F:\\Users\\dell\\source\\repos\\VocsControlHELP\\VocsControlHELP.csproj": {
+              "projectPath": "F:\\Users\\dell\\source\\repos\\VocsControlHELP\\VocsControlHELP.csproj"
+            },
             "F:\\Users\\dell\\source\\repos\\VocsControlUTIL\\VocsControlHELP.csproj": {
               "projectPath": "F:\\Users\\dell\\source\\repos\\VocsControlUTIL\\VocsControlHELP.csproj"
             }

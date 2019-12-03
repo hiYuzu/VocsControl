@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocsControlUI", "VocsControlUI.csproj", "{882F8C81-CF12-4EB8-801D-0B150136F33F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocsControlBLL", "..\VocsControlBLL\VocsControlBLL.csproj", "{0A7E2183-A833-40FA-BBD2-BC55E479A965}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocsControlBLL", "..\VocsControlBLL\VocsControlBLL.csproj", "{0A7E2183-A833-40FA-BBD2-BC55E479A965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocsControlDAL", "..\VocsControlDAL\VocsControlDAL.csproj", "{4FC486F4-CF69-4DAC-AC81-B6210378B534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocsControlDAL", "..\VocsControlDAL\VocsControlDAL.csproj", "{4FC486F4-CF69-4DAC-AC81-B6210378B534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocsControlMODEL", "..\VocsControlMODEL\VocsControlMODEL.csproj", "{7A4ABCB7-0C20-4D4D-BA33-3DA5012D82F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocsControlMODEL", "..\VocsControlMODEL\VocsControlMODEL.csproj", "{7A4ABCB7-0C20-4D4D-BA33-3DA5012D82F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VocsControlHELP", "..\VocsControlUTIL\VocsControlHELP.csproj", "{39484930-A9EA-4603-8FE6-44686579A58B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VocsControlHELP", "..\VocsControlHELP\VocsControlHELP.csproj", "{524F4CE8-3B70-4AD1-9AA9-444C2F6B1A65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{7A4ABCB7-0C20-4D4D-BA33-3DA5012D82F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A4ABCB7-0C20-4D4D-BA33-3DA5012D82F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A4ABCB7-0C20-4D4D-BA33-3DA5012D82F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{39484930-A9EA-4603-8FE6-44686579A58B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39484930-A9EA-4603-8FE6-44686579A58B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{39484930-A9EA-4603-8FE6-44686579A58B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{39484930-A9EA-4603-8FE6-44686579A58B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524F4CE8-3B70-4AD1-9AA9-444C2F6B1A65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524F4CE8-3B70-4AD1-9AA9-444C2F6B1A65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524F4CE8-3B70-4AD1-9AA9-444C2F6B1A65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524F4CE8-3B70-4AD1-9AA9-444C2F6B1A65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

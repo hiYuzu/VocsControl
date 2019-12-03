@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Users\\dell\\source\\repos\\VocsControlUTIL\\VocsControlHELP.csproj",
+      "projectUniqueName": "F:\\Users\\dell\\source\\repos\\VocsControlHELP\\VocsControlHELP.csproj",
       "projectName": "VocsControlHELP",
-      "projectPath": "F:\\Users\\dell\\source\\repos\\VocsControlUTIL\\VocsControlHELP.csproj",
+      "projectPath": "F:\\Users\\dell\\source\\repos\\VocsControlHELP\\VocsControlHELP.csproj",
       "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
-      "outputPath": "F:\\Users\\dell\\source\\repos\\VocsControlUTIL\\obj\\",
+      "outputPath": "F:\\Users\\dell\\source\\repos\\VocsControlHELP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
