@@ -1,7 +1,0 @@
-F:\Users\dell\source\repos\VocsControlUTIL\bin\Debug\netstandard2.0\VocsControlTOOL.deps.json
-F:\Users\dell\source\repos\VocsControlUTIL\bin\Debug\netstandard2.0\VocsControlTOOL.dll
-F:\Users\dell\source\repos\VocsControlUTIL\bin\Debug\netstandard2.0\VocsControlTOOL.pdb
-F:\Users\dell\source\repos\VocsControlUTIL\obj\Debug\netstandard2.0\VocsControlTOOL.AssemblyInfoInputs.cache
-F:\Users\dell\source\repos\VocsControlUTIL\obj\Debug\netstandard2.0\VocsControlTOOL.AssemblyInfo.cs
-F:\Users\dell\source\repos\VocsControlUTIL\obj\Debug\netstandard2.0\VocsControlTOOL.dll
-F:\Users\dell\source\repos\VocsControlUTIL\obj\Debug\netstandard2.0\VocsControlTOOL.pdb
