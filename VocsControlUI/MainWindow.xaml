@@ -5,8 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VocsControlUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="Modbus Rtu Master" Height="470" Width="800"
+        ResizeMode="CanMinimize">
+    <Grid x:Name="mainGrid" Background="OldLace">
+
+        <Label Content="功能码" FontWeight="Bold" HorizontalAlignment="Left" Margin="55,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="funcCombo" HorizontalAlignment="Left" Margin="106,10,0,0" VerticalAlignment="Top" Width="159" Height="25">
+            <ComboBoxItem IsEnabled="False">0x01 读取单个线圈</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">0x02 读取输入/离散量线圈</ComboBoxItem>
+            <ComboBoxItem IsSelected="True" IsEnabled="True ">0x03 读取保持寄存器</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">0x04 读取输入寄存器</ComboBoxItem>
+        </ComboBox>
+
+        <Button x:Name="readBtn" Click="ReadBtn_Click" Content="读取" FontWeight="Bold" HorizontalAlignment="Left" Margin="270,11,0,0" VerticalAlignment="Top" Width="80" Height="25"/>
+        <Button x:Name="clearBtn" Click="ClearBtn_Click" Content="清除" FontWeight="Bold" HorizontalAlignment="Left" Margin="355,11,0,0" VerticalAlignment="Top" Width="80" Height="25"/>
+
+        <DatePicker x:Name="StartDate" HorizontalAlignment="Left" Margin="440,11,0,0" VerticalAlignment="Top" Height="25" Width="100"/>
+        <DatePicker x:Name="StopDate" HorizontalAlignment="Left" Margin="545,11,0,0" VerticalAlignment="Top" Width="100" Height="25"/>
+        <Button x:Name="exportBtn" Click="ExportBtn_Click" Content="导出" FontWeight="Bold" HorizontalAlignment="Left" Margin="650,10,0,0" VerticalAlignment="Top" Width="40" Height="25"/>
+        <Button x:Name="queryBtn" Click="QueryBtn_Click" Content="查询" FontWeight="Bold" HorizontalAlignment="Left" Margin="690,10,0,0" VerticalAlignment="Top" Width="40" Height="25"/>
+
+        <Label Content="串  口" FontWeight="Bold" HorizontalAlignment="Left" Margin="55,53,0,0" VerticalAlignment="Top" Width="46"/>
+        <ComboBox x:Name="portCombo" HorizontalAlignment="Left" Margin="106,53,0,0" VerticalAlignment="Top" Width="80" Height="25"/>
+
+        <Label Content="波特率" FontWeight="Bold" HorizontalAlignment="Left" Margin="191,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.463" Width="46" Height="25"/>
+        <ComboBox x:Name="baudCombo" HorizontalAlignment="Left" Margin="242,53,0,0" VerticalAlignment="Top" Width="80" Height="25">
+            <ComboBoxItem IsEnabled="False">2400</ComboBoxItem>
+            <ComboBoxItem IsSelected="True" IsEnabled="True">9600</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">19200</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">14400</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">38400</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">57600</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">115200</ComboBoxItem>
+        </ComboBox>
+
+        <Label Content="校  检" FontWeight="Bold" HorizontalAlignment="Left" Margin="327,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.463" Width="46" Height="25"/>
+        <ComboBox x:Name="parityCombo" HorizontalAlignment="Left" Margin="378,53,0,0" VerticalAlignment="Top" Width="80" Height="25">
+            <ComboBoxItem IsSelected="True" IsEnabled="True">无校检</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">奇校检</ComboBoxItem>
+            <ComboBoxItem IsEnabled="False">偶校检</ComboBoxItem>
+        </ComboBox>
+
+        <Label Content="数据位" FontWeight="Bold" HorizontalAlignment="Left" Margin="463,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.463" Width="46" Height="25"/>
+        <ComboBox x:Name="dataCombo" HorizontalAlignment="Left" Margin="514,53,0,0" VerticalAlignment="Top" Width="80" Height="25" RenderTransformOrigin="0.492,0.469">
+            <ComboBoxItem IsSelected="True">8</ComboBoxItem>
+        </ComboBox>
+
+        <Label Content="停止位" FontWeight="Bold" HorizontalAlignment="Left" Margin="599,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.494,0.463" Width="46" Height="25"/>
+        <ComboBox x:Name="stopCombo" HorizontalAlignment="Left" Margin="650,53,0,0" VerticalAlignment="Top" Width="80" Height="25">
+            <ComboBoxItem IsSelected="True"  IsEnabled="True">1</ComboBoxItem>
+            <ComboBoxItem  IsEnabled="False">2</ComboBoxItem>
+        </ComboBox>
+
+        <DataGrid x:Name="dataGrid" SelectionUnit="CellOrRowHeader" AutoGenerateColumns="False" SelectionMode="Single" IsReadOnly="True" HorizontalAlignment="Left" Height="300" Margin="55,103,0,0" VerticalAlignment="Top" Width="675">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="时间" Width="220" Binding="{Binding TimeGrid}"/>
+                <DataGridTextColumn Header="点火状态" Width="100" Binding="{Binding StateGrid}"/>
+                <DataGridTextColumn Header="总烃" Width="100" Binding="{Binding ZtGrid}"/>
+                <DataGridTextColumn Header="甲烷" Width="100" Binding="{Binding JwGrid}"/>
+                <DataGridTextColumn Header="非甲烷总烃" Width="150" Binding="{Binding Zt_jwGrid}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Window>
